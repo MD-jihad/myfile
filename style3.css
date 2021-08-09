@@ -1,0 +1,268 @@
+.navbar{
+    background-color: rgb(230, 230, 250);
+    display: flex;
+    justify-content:center ;
+    
+    
+}
+.navbar  a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 28px;
+}
+.navbar a:hover{
+    color: #000;
+    background-color:#FFFFF0;
+
+}
+
+.contsarea{
+    background-color: rgb(230, 230, 250);
+    color: #fff;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#toggle{
+    display: none;
+}
+.contsarea label{
+    background-color: #fff;
+    width: 50px;
+    height: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contsarea label span{
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    margin: 3px 0px;
+}
+.contsarea{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    
+    .navbar {
+        flex-direction: column;
+        display: none;
+    }
+    #toggle:checked + .navbar{
+        display: flex;
+    }
+    .contsarea{
+        display: flex;
+    }
+  
+   
+}
+
+/*this is a container*/
+.der h1{
+    margin-left: 625px ;
+   
+    
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background:  #FFFAF0;
+    border : 2px solid aqua;
+}
+.container .box1{
+    width: 734px;
+    height: 394px;
+    float: left;
+    background-color:#FFFAF0 ;
+    margin: 0px 0px 0px 35px ;
+   padding-top: 27px;
+}
+.container .box2{
+   width: 424px;
+   height: 444px;
+    overflow: hidden;
+    background-color: #FFFAF0;
+    
+    padding: 0px 0px 0px 276px;
+}
+.container .box2 img{
+    border: 4px solid rgb(117, 173, 223);
+}
+.containe2{
+    width: 100%;
+    height: 500px;
+    background-color:#FFFAF0;
+    border : 2px solid aqua;
+}
+.containe2 .cont1{
+    
+    width: 300px;
+   height: 300px;
+    float: left;
+    margin: 0px 453px 0px 103px;
+    padding: 56px 0px 0px 0px ;
+}
+.containe2 .cont2{
+    width: 599px;
+    height: 499px;
+    background-color: #FFFAF0;
+    overflow: hidden;
+    padding-top: 76px;
+}
+.containe2 img{
+    border: 4px solid rgb(117, 173, 223);
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #FFFAF0;
+    border : 2px solid aqua;
+}
+footer .had h2{
+    margin: 0px 0px 0px 627px;
+    padding-top:10px  ;
+}
+.contact{
+    display: flex;
+    margin: 0px 862px 0px 0px ;
+}
+.contact .img1{
+   border: 3px solid rgb(153, 218, 218);
+    margin: 30px 89px 0px 10px;
+}
+.contact .img2{
+    margin: 30px 89px 0px 0px;
+    border: 3px solid rgb(153, 218, 218);
+}
+.contact .img3{
+    margin: 30px 89px 0px 0px;
+    border: 3px solid rgb(153, 218, 218);
+}
+.contact .img4{
+    margin: 30px 3px 0px 0px;
+    border: 3px solid rgb(153, 218, 218);
+}
+.mess{
+    width: 337px;
+    height: 90px;
+    background-color:wheat;
+    padding-top: 24px;
+    margin-top: 21px;
+    margin-left: 1150px;
+    border-radius: 12px;
+    transition: background-color 1s ease-out;
+   
+}
+.mess:hover{
+    background-color: teal;
+}
+.de{
+    width: 100%;
+    height:500px ;
+    background-color: thistle;
+    border : 2px solid aqua;
+}
+.de1{
+    padding-top:4px;
+    margin: 0px 0px 0px 627px;
+}
+.de2{
+    margin-top: 50px;
+    margin-left: 184px ;
+    float: left;
+    margin-right: 386px;
+
+}
+.de3{
+    width: 493px;
+    height: 400px;
+    background-color: thistle;
+    overflow: hidden;
+}
+.de3 .id{
+    margin: 80px 0px 0px 0px ;
+}
+.de3 .id1{
+    margin: 51px 0px 0px 0px ;
+}
+.de3 .id2{
+    margin: 51px 0px 0px 0px ;
+}
+.de3 .id img{
+float: left;
+margin: 0px 40px 0px 0px ;
+}
+.de3 .id .uki{
+    overflow: hidden;
+    
+}
+.de3 .id1 img{
+    float: left;
+    margin: 0px 40px 0px 0px ;
+    }
+.de3 .id1 .uki{
+        overflow: hidden;
+        
+    }
+.de3 .id2 img{
+        float: left;
+        margin: 0px 40px 0px 0px ;
+        }
+.de3 .id2 .uki{
+            overflow: hidden;
+           
+        }
+
+
+/*img*/
+.contact .imgm{
+    float: left;
+    margin:18px 104px 0px 43px ;
+} 
+.contact .imgm2{
+    overflow:hidden;
+    margin:12px 0px 0px 0px  ;
+} 
+.contact .imgx{
+    float: left;
+    margin:18px 104px 0px 43px ;
+} 
+.contact .imgx2{
+    overflow: hidden;
+    margin:12px 0px 0px 0px  ;
+} 
+.contact .imgz{
+    float: left;
+    margin:18px 104px 0px 43px ;
+} 
+.contact .imgz2{
+    overflow: hidden;
+    margin:12px 0px 0px 0px  ;
+} 
+.contact .imgy{
+    float: left;
+    margin:18px 104px 0px 43px ;
+} 
+.contact .imgy2{
+    overflow: hidden;
+    margin:12px 0px 0px 0px  ;
+} 
+
+.foot{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+   
+    padding-top: 10px ;
+}
+.foot h3{
+    margin-left: 575px;
+}
